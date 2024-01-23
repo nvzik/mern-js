@@ -1,0 +1,33 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+input.yellow-input{
+    border-bottom: 1px solid rgb(206, 111, 2)!important;
+    box-shadow: 0 1px 0 0 rgb(206, 111, 2)!important;
+    color: white;
+}
+
+input.yellow-input+label{
+    border-bottom: 1px solid rgb(206, 111, 2)!important;
+    box-shadow: 0 1px 0 0 rgb(206, 111, 2)!important;
+    color: rgb(206, 111, 2)!important;
+} 
+
+/* .input-field>label:not(.label-icon).active */
+
+/* label.input-label:focus{
+    transition: transform 0;
+transform-origin: 0;
+transform: 0;
+} */
+
+input.yellow-input:focus{
+    border-bottom: 1px solid rgb(227, 202, 6)!important;
+    box-shadow: 0 1px 0 0 rgb(227, 202, 6)!important;
+}
+
+input.yellow-input:focus+label{
+    border-bottom: 1px solid rgb(227, 202, 6)!important;
+    box-shadow: 0 1px 0 0 rgb(227, 202, 6)!important;
+    color: rgb(227, 202, 6)!important;
+} 

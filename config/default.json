@@ -1,0 +1,6 @@
+{
+    "port": 5500,
+    "mongoURI": "mongodb+srv://nvzik:Erkesh!0107@cluster0.bgiqmg0.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "nvzik mern practice",
+    "baseURL": "http://localhost:5500"
+}
